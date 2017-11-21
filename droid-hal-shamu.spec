@@ -8,6 +8,16 @@
 %define device_pretty Nexus 6
 
 %define installable_zip 1
+%define straggler_files \
+/bugreports\
+/d\
+/file_contexts.bin\
+/property_contexts\
+/sdcard\
+/selinux_version\
+/service_contexts\
+/vendor\
+%(nil)
 
 %include rpm/dhd/droid-hal-device.inc
 
